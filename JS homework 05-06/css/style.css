@@ -1,0 +1,147 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+.wrapper {
+	height: 100%;
+}
+
+.left {
+	list-style: none;
+    float: left;
+}
+
+.right {
+	list-style: none;
+	float: right;
+}
+
+.change {
+	overflow: hidden;
+}
+
+.change ul {
+	padding-left: 0px;
+}
+
+a {
+	color: white;
+	padding: 0px 5px;
+	border-right: 1px solid grey;
+	font-family: Arial, Tahoma, sans-serif;
+}
+
+.left:last-child a {
+	border-right: none;
+}
+
+.right:first-child a {
+	border-right: none;
+}
+
+.underline {
+	text-decoration: none;
+}
+
+.wrapTable {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.wrapCell {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.counter {
+	color: white;
+}
+
+.timer {
+	color: red;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.clones {
+	color: gray;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	font-size: 50px;
+}
+
+.clones span {
+	display: inline;
+}
+
+.milliseconds {
+	display: inline-block;
+	width: 320px;
+}
+
+.milliseconds_small {
+	display: inline-block;
+	width: 50px;
+}
+
+.milliseconds_medium {
+	display: inline-block;
+	width: 110px;
+}
+
+.milliseconds_large {
+	display: inline-block;
+	width: 170px;
+}
+
+.small {
+    font-size: 30px;
+}
+
+.medium {
+    font-size: 70px;
+}
+
+.large {
+    font-size: 110px;
+}
+
+.x_large {
+    font-size: 200px;
+}
+
+.blue {
+    background: blue;
+}
+
+.black {
+    background: black;
+}
+
+.silver {
+    background: silver;
+}
+
+.green {
+    background: green;
+}
+
+.orange {
+    background: orange;
+}
+
+.buttons {
+	text-align: center;
+}
+
+input {
+	font-size: 40px;
+}
